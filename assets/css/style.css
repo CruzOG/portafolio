@@ -743,8 +743,8 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: #18d26e;
-  border-color: #18d26e;
+  background: #1a9ca3;
+  border-color: #1a9ca3;
 }
 
 .services .icon-box:hover .icon {
@@ -752,7 +752,7 @@ section .container {
 }
 
 .services .icon-box:hover .icon i {
-  color: #18d26e;
+  color: #1a9ca3;
 }
 
 .services .icon-box:hover .icon::before {
