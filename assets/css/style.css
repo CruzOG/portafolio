@@ -1193,3 +1193,137 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+/*--------------------------------------------------------------
+# Mejoras visuales - Filtros, etiquetas y tarjetas
+--------------------------------------------------------------*/
+
+/* Filtros */
+.portfolio #portfolio-flters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 0;
+  margin: 0 auto 30px auto;
+  list-style: none;
+  border-radius: 0;
+}
+
+.portfolio #portfolio-flters li {
+  cursor: pointer;
+  padding: 9px 22px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 50px;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
+  background: #18d26e;
+  color: #000;
+}
+
+/* Tarjetas */
+.portfolio .portfolio-wrap {
+  border-radius: 14px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+}
+
+.portfolio .portfolio-wrap:hover {
+  transform: translateY(-6px);
+}
+
+.portfolio .portfolio-wrap::before {
+  border-radius: 14px;
+}
+
+.portfolio .portfolio-wrap .portfolio-info {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio .portfolio-wrap .portfolio-info h4 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.portfolio .portfolio-wrap .portfolio-info p {
+  text-transform: none;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  margin-top: 0;
+}
+
+/* Etiquetas */
+.portfolio-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin: 10px 0 14px 0;
+}
+
+.portfolio-tags .tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 14px;
+  border-radius: 50px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  font-weight: 600;
+}
+
+.portfolio-tags .tag-tableau {
+  background: rgba(231, 76, 60, 0.18);
+  color: #ff6b57;
+  border: 1px solid rgba(255, 107, 87, 0.8);
+}
+
+.portfolio-tags .tag-powerbi {
+  background: rgba(247, 183, 49, 0.18);
+  color: #f5b700;
+  border: 1px solid rgba(245, 183, 0, 0.8);
+}
+
+.portfolio-tags .tag-googleapps {
+  background: rgba(52, 152, 219, 0.18);
+  color: #4dabf7;
+  border: 1px solid rgba(77, 171, 247, 0.8);
+}
+
+/* Icono de enlace */
+.portfolio .portfolio-wrap .portfolio-links a {
+  width: 52px;
+  height: 52px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #18d26e;
+  color: #000;
+  font-size: 26px;
+  margin-top: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a:hover {
+  background: #fff;
+  color: #000;
+  transform: scale(1.08);
+}
+
