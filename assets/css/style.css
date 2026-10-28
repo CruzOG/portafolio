@@ -35,12 +35,12 @@ body::before {
 }
 
 a {
-  color: #18d26e;
+  color: #14b8a6;
   text-decoration: none;
 }
 
 a:hover {
-  color: #35e888;
+  color: #2dd4bf;
   text-decoration: none;
 }
 
@@ -94,7 +94,7 @@ h6 {
 
 #header h2 span {
   color: #fff;
-  border-bottom: 2px solid #18d26e;
+  border-bottom: 2px solid #14b8a6;
   padding-bottom: 6px;
 }
 
@@ -123,7 +123,7 @@ h6 {
 }
 
 #header .social-links a:hover {
-  background: #18d26e;
+  background: #14b8a6;
 }
 
 @media (max-width: 992px) {
@@ -241,7 +241,7 @@ h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #18d26e;
+  background-color: #14b8a6;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -385,7 +385,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: #14b8a6;
   margin: 4px 10px;
 }
 
@@ -405,7 +405,7 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #18d26e;
+  color: #14b8a6;
 }
 
 .about-me .content ul {
@@ -426,7 +426,7 @@ section .container {
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #18d26e;
+  color: #14b8a6;
   line-height: 0;
 }
 
@@ -509,7 +509,7 @@ section .container {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #18d26e;
+  background-color: #14b8a6;
 }
 
 /*--------------------------------------------------------------
@@ -1226,7 +1226,7 @@ section .container {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: #18d26e;
+  background: #14b8a6;
   color: #000;
 }
 
@@ -1287,7 +1287,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-info::-webkit-scrollbar-thumb {
-  background: rgba(24, 210, 110, 0.8);
+  background: rgba(20, 184, 166, 0.8);
   border-radius: 10px;
 }
 
@@ -1341,7 +1341,7 @@ section .container {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: #18d26e;
+  background: #14b8a6;
   color: #000;
   font-size: 26px;
   margin-top: 6px;
