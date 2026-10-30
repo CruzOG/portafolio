@@ -1379,3 +1379,40 @@ section .container {
 .cert-card-link:hover .cert-link {
   color: #2dd4bf;
 }
+
+/* Botón Ver proyectos en Header */
+.btn-proyectos {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 24px;
+  border-radius: 50px;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #14b8a6;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-proyectos:hover {
+  background: #14b8a6;
+  color: #000;
+  box-shadow: 0 0 0 4px rgba(20, 184, 166, 0.1);
+}
+
+@media (max-width: 992px) {
+  #header .header-actions {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .btn-proyectos {
+    width: auto;
+    justify-content: center;
+  }
+}
