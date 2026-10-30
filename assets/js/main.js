@@ -54,9 +54,9 @@
   })
 
   /**
-   * Scrool with ofset on links with a class name .scrollto
+   * Scrool with ofset on links with a class name .nav-link
    */
-  on('click', '#navbar .nav-link', function(e) {
+  on('click', '#navbar .nav-link, .btn-proyectos', function(e) {
     let section = select(this.hash)
     if (section) {
       e.preventDefault()
