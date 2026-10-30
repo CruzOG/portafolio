@@ -212,10 +212,15 @@
   });
 
   /**
-   * Initiate portfolio lightbox 
+   * Initiate glightbox
    */
-  const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
+  const glightbox = GLightbox({
+    selector: '.glightbox',
+    touchNavigation: true,
+    loop: true,
+    closeButton: true,
+    keyboardNavigation: true,
+    dragAutoSnap: true
   });
 
   /**
