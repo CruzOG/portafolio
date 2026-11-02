@@ -1668,3 +1668,20 @@ section .container {
     display: block;
   }
 }
+
+
+
+
+/* ==============================================================
+   BADGES DE CREDLY: mostrar completos, sin recortar
+   ============================================================== */
+.cert-img img.cert-badge {
+  object-fit: contain;
+  padding: 12px;
+}
+
+@media (max-width: 768px) {
+  .cert-img img.cert-badge {
+    padding: 6px;
+  }
+}
